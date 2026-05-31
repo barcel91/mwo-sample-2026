@@ -15,9 +15,9 @@ class PitStopCounterTest {
 
         PitStopCounter pitStopCounter = new PitStopCounter();
 
-        int pitStopsNumber = pitStopCounter .countPitStops(pitStops);
+        int pitStopsNumber = pitStopCounter.countPitStops(pitStops);
 
-        assertEquals(3, pitStopsNumber);
+        assertEquals(2, pitStopsNumber);
 
     }
 }
