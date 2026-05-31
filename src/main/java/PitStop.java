@@ -1,3 +1,7 @@
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class PitStop {
 
     private double pit_duration;
@@ -7,6 +11,10 @@ public class PitStop {
     private int driver_number;
 
     //=========================== Constructor
+
+
+    public PitStop() {
+    }
 
     public PitStop(double pit_duration, int lap_number, int driver_number) {
         this.pit_duration = pit_duration;
