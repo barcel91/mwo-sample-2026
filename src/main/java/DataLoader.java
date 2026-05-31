@@ -1,5 +1,6 @@
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import pl.edu.agh.mwo.PitStop;
 
 import java.io.File;
 import java.io.IOException;

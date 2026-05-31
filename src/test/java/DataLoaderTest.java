@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import pl.edu.agh.mwo.PitStop;
 
 import java.util.ArrayList;
 

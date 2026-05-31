@@ -1,3 +1,5 @@
+import pl.edu.agh.mwo.PitStop;
+
 import java.util.Comparator;
 import java.util.List;
 
